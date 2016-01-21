@@ -4,10 +4,9 @@
 names=[]
 scores=[]
 
-#get input
-number_of_students = input("Enter number of students:")                           
+#get input                     
 try:
-    number_of_students=int(number_of_students)
+    number_of_students = int(input("Enter number of students:"))     
     for i in range(number_of_students):
         names.append(input("Enter student " +str(i+1)+ " name:"))
         scores.append(float(input("Enter student "+str(i+1)+ " score:")))
